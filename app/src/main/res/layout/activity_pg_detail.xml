@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop" />
+
+        <TextView android:id="@+id/pgName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PG Name"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView android:id="@+id/pgRent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rent"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView android:id="@+id/pgType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:layout_marginTop="5dp"/>
+
+        <TextView android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:layout_marginTop="5dp"/>
+
+
+
+        <TextView android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:layout_marginTop="25dp"/>
+
+        <TextView android:id="@+id/ownerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:text="Owner"/>
+
+        <TextView android:id="@+id/ownerPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owner Phone"/>
+
+
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call Owner"
+
+            android:layout_marginTop="12dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/splash_bg"
+            />
+
+        <Button
+            android:id="@+id/btnNavigate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Navigate to PG"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/splash_bg"
+            />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Splash screen theme -->
+    <style name="Theme.MyApp.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+
+    <!-- Your main app theme -->
+    <style name="Theme.Roomly" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Your theme customizations -->
+    </style>
+</resources>

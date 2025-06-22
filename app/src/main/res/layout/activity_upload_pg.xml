@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Your PG"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- PG Name -->
+        <EditText
+            android:id="@+id/etPgName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PG Name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="153dp"
+            android:textColor="#A29D9D"
+            android:text="PG Type"
+            android:textSize="18dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/rgPgType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+
+
+            <RadioButton
+                android:id="@+id/rbBoys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boys"
+                android:layout_marginEnd="16dp"/>
+
+            <RadioButton
+                android:id="@+id/rbGirls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Girls"
+                android:layout_marginEnd="16dp"/>
+
+            <RadioButton
+                android:id="@+id/rbBoth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Both"/>
+
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/pgRent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rent"
+            android:inputType="number"
+            android:layout_marginTop="8dp" />
+        <!-- City Name -->
+        <EditText
+            android:id="@+id/etCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:layout_marginTop="16dp" />
+
+        <!-- Description -->
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PG Description"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top"
+            android:layout_marginTop="16dp" />
+
+        <!-- Pick Location on Map -->
+        <Button
+            android:id="@+id/btnPickLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pick PG Location on Map"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#C17700"
+            android:textColor="#FFFFFF"/>
+
+        <!-- Upload Images -->
+        <Button
+            android:id="@+id/btnUploadImages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select 3-5 Images"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#C17700"
+            android:textColor="#FFFFFF" />
+
+        <!-- Owner Name -->
+        <EditText
+            android:id="@+id/etOwnerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Owner Name"
+            android:layout_marginTop="24dp" />
+
+        <!-- Owner Contact -->
+        <EditText
+            android:id="@+id/etOwnerPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Owner Phone Number"
+            android:inputType="phone"
+            android:layout_marginTop="8dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmitPG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload PG"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1E88E5"
+            android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>
